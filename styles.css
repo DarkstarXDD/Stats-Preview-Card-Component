@@ -94,6 +94,8 @@ body {
 }
 
 
+/* --------------- Media Queries --------------- */
+
 @media (min-width: 475px) {
     .card__stats {
         flex-direction: row;
@@ -158,15 +160,17 @@ body {
         margin-top: 40px;
         width: 100%;
         justify-content: start;
-        gap: 62px;
+        gap: 58px;
     }
 
     .card__stat-number {
-        font-size: 1.475rem;
+        font-size: 1.5rem;
     }
     
     .card__stat-label {
         margin-top: 6px;
+        font-size: 0.75rem;
+        letter-spacing: 0.0875rem;
     }
     
 }
