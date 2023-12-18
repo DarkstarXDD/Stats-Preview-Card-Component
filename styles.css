@@ -16,7 +16,7 @@
 body {
     background-color: var(--clr-body-bg);
     color: var(--clr-white);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ body {
 
 .card__stat-label {
     color: var(--clr-stat-labels);
-    font-family: Lexend Deca;
+    font-family: "Lexend Deca", sans-serif;
     font-size: 0.75rem;
     letter-spacing: 0.0875rem;
     text-transform: uppercase;
