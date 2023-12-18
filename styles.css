@@ -63,9 +63,9 @@ body {
 
 .card__text {
     color: var(--clr-main-paragraph);
-    font-size: 0.9rem;
+    font-size: 0.9375rem;
     line-height: 1.6rem;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 .card__stats {
@@ -80,17 +80,17 @@ body {
 }
 
 .card__stat-number {
-    font-size: 1.375rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 .card__stat-label {
     color: var(--clr-stat-labels);
     font-family: Lexend Deca;
-    font-size: 0.7rem;
-    letter-spacing: 0.1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.0875rem;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 
@@ -150,8 +150,6 @@ body {
     }
 
     .card__text {
-        font-size: 0.9375rem;
-        line-height: 1.6rem;
         margin-top: 25px;
         padding-right: 50px;
     }
@@ -161,16 +159,6 @@ body {
         width: 100%;
         justify-content: start;
         gap: 58px;
-    }
-
-    .card__stat-number {
-        font-size: 1.5rem;
-    }
-    
-    .card__stat-label {
-        margin-top: 6px;
-        font-size: 0.75rem;
-        letter-spacing: 0.0875rem;
     }
     
 }
